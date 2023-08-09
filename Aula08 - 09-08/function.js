@@ -55,6 +55,7 @@ function custosDosMonitores(linhas, colunas){
 const custoTotal = custosDosMonitores(5, 4);
 console.log(custoTotal);
 
+//atvd 13 - 14
 const plantaPrecisaDeAgua = dia => {
     if (dia === 'Wednesday') {
         return true
