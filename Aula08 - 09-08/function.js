@@ -17,43 +17,43 @@ function saudacaoEmEspanhol() {
 
 //atvd 5
 function agradecerCliente() {
-    console.log('Thanks you for your purchase! We appreciate your business.')
+    console.log('Thanks you for your purchase! We appreciate your business.');
 }
 
 //atvd 6
-agradecerCliente()
+agradecerCliente();
 
 //atvd 7 
-agradecerCliente()
-agradecerCliente()
-agradecerCliente()
+agradecerCliente();
+agradecerCliente();
+agradecerCliente();
 
 //atvd 8 - 9
 function agradecerCliente(nome='João') {
-    console.log('Thank you for your purchase, ' + nome + '! We appreciate your business.')
+    console.log('Thank you for your purchase, ' + nome + '! We appreciate your business.');
 }
 
 //atvd 10
-agradecerCliente('Cole')
+agradecerCliente('Cole');
 
 //atvd 11
 function criarListaDeCompras(item1 = 'Leite', item2 = 'pão', item3 = 'ovos'){
-    console.log(item1 + item2 + item3)
+    console.log(item1 + item2 + item3);
 }
-criarListaDeCompras()
+criarListaDeCompras();
 
 //atvd 12
 function contarMonitores(linhas, colunas){
     return linhas * colunas   
 }
-const numeroDeMonitores = contarMonitores(5, 4)
-console.log(numeroDeMonitores)
+const numeroDeMonitores = contarMonitores(5, 4);
+console.log(numeroDeMonitores);
 
 function custosDosMonitores(linhas, colunas){
     return (linhas * colunas) * 200
 }
-const custoTotal = custosDosMonitores(5, 4)
-console.log(custoTotal)
+const custoTotal = custosDosMonitores(5, 4);
+console.log(custoTotal);
 
 const plantaPrecisaDeAgua = dia => {
     if (dia === 'Wednesday') {
@@ -62,4 +62,4 @@ const plantaPrecisaDeAgua = dia => {
         return false
     }   
 }
-console.log(plantaPrecisaDeAgua("Wednesday"))
+console.log(plantaPrecisaDeAgua("Wednesday"));
