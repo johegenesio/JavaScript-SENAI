@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-family: 'Poppins';
+    color: #202020;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('emoji-fef7ec-1280x577@1.5x.png');
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(260px);
+    -webkit-backdrop-filter: blur(260px);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+input {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+
+    font-family: 'Poppins';
+}
+
+.btn {
+    margin: 0px;
+}
