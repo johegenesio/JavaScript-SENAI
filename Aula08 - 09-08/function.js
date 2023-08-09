@@ -62,4 +62,4 @@ const plantaPrecisaDeAgua = dia => {
         return false
     }   
 }
-console.log(plantaPrecisaDeAgua("Wednesday"));
+console.log(plantaPrecisaDeAgua("Tuesday"));
